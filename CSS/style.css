@@ -1,0 +1,359 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* ====== CORPO ====== */
+  body {
+    background-color: #0d0d0d;
+    color: #fff;
+  }
+  
+  /* ====== CABEÇALHO ====== */
+  header {
+    background-color: #1a1a1a;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logoNome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* ====== LOGO ====== */
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #00aaff;
+  }
+  
+  .logo span {
+    color: #ffffff;
+  }
+  
+  /* ====== MENU ====== */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00aaff;
+  }
+  
+  /* ====== PESQUISA ====== */
+  .pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .pesquisa input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background-color: #141414;
+    color: #ffffff;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .pesquisa input:focus {
+    border-color: #00aaff;
+  }
+  
+  .pesquisa button {
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .pesquisa button:hover {
+    background-color: #0088cc;
+  }
+  
+  /* ====== BANNER ====== */
+  .banner {
+    background: linear-gradient(135deg, #001f3f, #0077b6);
+    text-align: center;
+    padding: 125px 20px;
+    background-image: url('../imagens/banner 2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .banner h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+  }
+  
+  .banner .btn {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .banner .btn:hover {
+    background-color: #0088cc;
+  }
+  /* .banner img{
+    opacity: ;
+  } */
+  
+  /* ====== PRODUTOS ====== */
+  .produtos {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    color: #00aaff;
+    margin-bottom: 40px;
+  }
+   .card{
+    background-color: #111;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 250px; /* tamanho fixo de cada card */
+    color: white;
+
+   }
+   .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+  }
+  
+  /* Card de produto */
+  .comp {
+    display: flex;
+    justify-content: center; /* centraliza */
+    align-items: flex-start; /* alinha pelo topo */
+    flex-wrap: wrap; /* quebra linha se faltar espaço */
+    gap: 30px; /* espaço entre os cards */
+    margin-top: 30px;
+  }
+  
+  .comp img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .comp h3 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .comp hr {
+    border: 1px solid #00aaff;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .comp button {
+    margin-top: 15px;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .comp button:hover {
+    background-color: #0088cc;
+  }
+  
+  /* ====== RODAPÉ ====== */
+  footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+ /* ======== GERAL ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #0d0d0d;
+    color: #fff;
+  }
+  
+  /* ======== CABEÇALHO ======== */
+  header {
+    background-color: #111;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0ff;
+  }
+  
+  .logoNome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0ff;
+  }
+  
+  .logo span {
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #0ff;
+  }
+  
+  
+  .produto-detalhe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 100px 20px 60px;
+    margin-top: 48px; /* ou mais se quiser */
+  } 
+  .card-produto {
+    background-color: #111;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #0ff3;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 80px;
+    
+  }
+  
+  .card-produto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 40px #0ff7;
+  }
+  
+  .card-produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #0ff5;
+  }
+  
+  .card-produto h2 {
+    color: #0ff;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .card-produto .descricao {
+    font-size: 15px;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .card-produto hr {
+    border: 1px solid #0ff3;
+    margin: 20px 0;
+  }
+  
+  .card-produto .preco {
+    font-size: 24px;
+    color: #0ff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* ======== BOTÕES ======== */
+  .btn-comprar,
+  .btn-voltar {
+    background-color: #0ff;
+    color: #000;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin: 5px;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #09a;
+    transform: scale(1.05);
+  }
+  
+  .btn-voltar {
+    background-color: transparent;
+    border: 2px solid #0ff;
+    color: #0ff;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #0ff;
+    color: #000;
+    transform: scale(1.05);
+  }
+  
