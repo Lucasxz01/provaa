@@ -275,7 +275,7 @@
     align-items: center;
     height: 90vh;
     padding: 100px 20px 60px;
-    margin-top: 48px; /* ou mais se quiser */
+    margin-top: 48px; 
   } 
   .card-produto {
     background-color: #111;
@@ -342,7 +342,7 @@
   
   .btn-comprar:hover {
     background-color: #09a;
-    transform: scale(1.05);
+ 
   }
   
   .btn-voltar {
@@ -354,6 +354,6 @@
   .btn-voltar:hover {
     background-color: #0ff;
     color: #000;
-    transform: scale(1.05);
+ 
   }
   
